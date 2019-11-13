@@ -72,6 +72,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
             let recordedAudioURL = sender as! URL
             playSoundsVC.recordedAudioURL = recordedAudioURL
         }
+        
     }
     
     func abling(string:String,stop:Bool,record:Bool){
